@@ -1,0 +1,30 @@
+16:57:40 Do we work together on it. The main idea behind this project was to create a clean.
+16:57:47 A useful website. We wanted to users are able to book.
+16:57:52 An appointment, treatment. To get to know the doctor.
+16:58:02 For our visit…
+16:58:08 Our aim? To combine learning. First of all.
+16:58:15 Our website includes several, uh. Features, like main page.
+16:58:20 Means homepage. A homepage with an introduction and welcome message.
+16:58:27 Services section. A page with… a section where detail.
+16:58:33 Info? On dental treatment.
+16:58:38 Book an appointment, book form.
+16:58:45 Appointment form. Your username, e… Email, phone number, date.
+16:58:51 And also a button here. Also, I apply… Apple's animation here.
+16:58:59 On this… picture.
+16:59:05 Dr. Profile. And the contact page.
+16:59:12 This is a contract pop-up. So, we built it… from HTML?
+16:59:23 Css, and Java. We use all these. Mature the website is responsive or not.
+16:59:35 So, you can see… This is, uh, that… Responsive website.
+16:59:46 When we move to other pages. You also see that.
+16:59:56 So, basically, it's our first website, first… assignment, or project.
+17:00:15 Responsive means work on… desktop and mobile.
+17:00:22 Device, both. So, you can see… This is a mobile view.
+17:00:32 A, H cell? Desktop view.
+17:00:42 So, this is… Our website?
+17:00:47 As you see… Login form, obviously.
+17:00:53 Sign up section, login section.
+17:01:00 To engage with…
+17:01:07 So this is not only a project. This is more than a project.
+17:01:14 We learn and experience more things. We built how to build, uh, feed, learn how to build a website.
+17:01:29 We're proud to be creative. So, thank you so much.
+17:01:35 Beautiful… like it… 2… Thank you so much, thanks for watching.

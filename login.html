@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>32Smile.com|Complete Dental Health Solution</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  <link rel="shortcut icon" href="website/assets/images/logo2.jpg" type="image/x-icon" >
+ <link rel="stylesheet" href="website/assets/css/login.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="auth-container">
+    <div class="tooth-icon">🦷</div>
+    <h2 id="form-title">Patient Login</h2>
+    <form id="auth-form">
+      <div class="form-group" id="name-group" style="display: none;">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Username">
+      </div>
+      <div class="form-group">
+        <label for="email">Number or Email Address</label>
+        <input type="email" id="email" placeholder="you@example.com" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Your password" required>
+      </div>
+      <button type="submit" class="btn" id="submit-btn">Login</button>
+    </form>
+    <div class="toggle-link">
+      <span id="toggle-text">Don't have an account?</span>
+      <a id="toggle-link">Sign Up</a>
+    </div>
+  </div>
+
+  <script>
+    const isLogin = { value: true };
+    const formTitle = document.getElementById("form-title");
+    const nameGroup = document.getElementById("name-group");
+    const submitBtn = document.getElementById("submit-btn");
+    const toggleText = document.getElementById("toggle-text");
+    const toggleLink = document.getElementById("toggle-link");
+
+    toggleLink.addEventListener("click", () => {
+      isLogin.value = !isLogin.value;
+
+      if (isLogin.value) {
+        formTitle.textContent = "Patient Login";
+        nameGroup.style.display = "none";
+        submitBtn.textContent = "Login";
+        toggleText.textContent = "Don't have an account?";
+        toggleLink.textContent = "Sign Up";
+      } else {
+        formTitle.textContent = "New Patient Sign Up";
+        nameGroup.style.display = "block";
+        submitBtn.textContent = "Sign Up";
+        toggleText.textContent = "Already have an account?";
+        toggleLink.textContent = "Login";
+      }
+    });
+
+    document.getElementById("auth-form").addEventListener("submit", function (e) {
+      e.preventDefault();
+      const name = document.getElementById("name").value;
+      const email = document.getElementById("email").value;
+      const password = document.getElementById("password").value;
+
+      if (isLogin.value) {
+        alert(`Logging in with:\nEmail: ${email}\nPassword: ${password}`);
+      } else {
+        alert(`Signing up with:\nName: ${name}\nEmail: ${email}\nPassword: ${password}`);
+      }
+    });
+  </script>
+</body>
+</html>
